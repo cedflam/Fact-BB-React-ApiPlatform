@@ -8,10 +8,15 @@ use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Security\Core\User\UserInterface;
+use Symfony\Component\Serializer\Annotation\Groups;
 
 /**
  * @ORM\Entity(repositoryClass=CompanyRepository::class)
- * @ApiResource()
+ * @ApiResource(
+ *     normalizationContext={
+ *          "groups"={"company_read"}
+ *     },
+ * )
  */
 class Company implements UserInterface
 {
@@ -19,11 +24,13 @@ class Company implements UserInterface
      * @ORM\Id
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
+     * @Groups({"company_read"})
      */
     private $id;
 
     /**
      * @ORM\Column(type="string", length=180, unique=true)
+     * @Groups({"company_read"})
      */
     private $email;
 
@@ -40,46 +47,55 @@ class Company implements UserInterface
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Groups({"company_read"})
      */
     private $name;
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Groups({"company_read"})
      */
     private $firstname;
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Groups({"company_read"})
      */
     private $lastname;
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Groups({"company_read"})
      */
     private $address;
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Groups({"company_read"})
      */
     private $postCode;
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Groups({"company_read"})
      */
     private $city;
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Groups({"company_read"})
      */
     private $phone;
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Groups({"company_read"})
      */
     private $siret;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
+     * @Groups({"company_read"})
      */
     private $rcs;
 
@@ -90,26 +106,31 @@ class Company implements UserInterface
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
+     * @Groups({"company_read"})
      */
     private $mention2;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
+     * @Groups({"company_read"})
      */
     private $mention3;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
+     * @Groups({"company_read"})
      */
     private $mention4;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
+     * @Groups({"company_read"})
      */
     private $mention5;
 
     /**
      * @ORM\OneToMany(targetEntity=Customer::class, mappedBy="company")
+     *
      */
     private $customers;
 
