@@ -62,7 +62,7 @@ const CustomersPage = () => {
                     />
                     <div className="row">
                         {filteredCustomers.map(customer => (
-                                <div className="col-4 mb-2" key={customer.id}>
+                                <div className="col-md-4 mb-2" key={customer.id}>
                                     <div className="card">
                                         <div className="card-header">
                                             <h4><i className="fas fa-user"/> {customer.firstname} {customer.lastname}</h4>

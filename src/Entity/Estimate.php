@@ -7,10 +7,15 @@ use App\Repository\EstimateRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Serializer\Annotation\Groups;
 
 /**
  * @ORM\Entity(repositoryClass=EstimateRepository::class)
- * @ApiResource()
+ * @ApiResource(
+ *     normalizationContext={
+            "groups"={"estimates_read"}
+ *     }
+ * )
  */
 class Estimate
 {
@@ -18,46 +23,55 @@ class Estimate
      * @ORM\Id
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
+     * @Groups({"estimates_read"})
      */
     private $id;
 
     /**
      * @ORM\Column(type="float")
+     * @Groups({"estimates_read"})
      */
     private $totalHt;
 
     /**
      * @ORM\Column(type="float")
+     * @Groups({"estimates_read"})
      */
     private $totalTtc;
 
     /**
      * @ORM\Column(type="boolean")
+     * @Groups({"estimates_read"})
      */
     private $status;
 
     /**
      * @ORM\Column(type="datetime")
+     * @Groups({"estimates_read"})
      */
     private $createdAt;
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Groups({"estimates_read"})
      */
     private $reference;
 
     /**
      * @ORM\Column(type="boolean")
+     * @Groups({"estimates_read"})
      */
     private $archive;
 
     /**
      * @ORM\ManyToOne(targetEntity=Company::class, inversedBy="estimates")
+     * @Groups({"estimates_read"})
      */
     private $company;
 
     /**
      * @ORM\ManyToOne(targetEntity=Customer::class, inversedBy="estimates")
+     * @Groups({"estimates_read"})
      */
     private $customer;
 
