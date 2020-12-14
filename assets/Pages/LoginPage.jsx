@@ -3,6 +3,7 @@ import axios from 'axios';
 import logo from '../img/bb.jpg';
 import {useHistory} from "react-router";
 
+
 const LoginPage = ({isAuthenticated, setIsAuthenticated}) => {
 
     //Propriétés
@@ -54,7 +55,9 @@ const LoginPage = ({isAuthenticated, setIsAuthenticated}) => {
                                 <div className="card-body">
                                     <form onSubmit={handleSubmit}>
                                         <div className="form-group">
-                                            <input type="email"  className={"form-control" + (errors && " is-invalid")} name="email"
+                                            <input type="email"
+                                                   className={"form-control" + (errors && " is-invalid")}
+                                                   name="email"
                                                    value={credentials.email}
                                                    placeholder="Saisir votre email..."
                                                    onChange={handleChange}
@@ -62,7 +65,9 @@ const LoginPage = ({isAuthenticated, setIsAuthenticated}) => {
                                             {errors &&  <span className="invalid-feedback">{errors}</span>}
                                         </div>
                                         <div className="form-group">
-                                            <input type="password" className="form-control" name="password"
+                                            <input type="password"
+                                                   className="form-control"
+                                                   name="password"
                                                    value={credentials.password}
                                                    placeholder="Saisir votre mot de passe..."
                                                    onChange={handleChange}

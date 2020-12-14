@@ -1,5 +1,6 @@
 import React, {Fragment, useEffect, useState} from 'react';
 import axios from 'axios';
+import {Link} from "react-router-dom";
 
 const CustomersPage = () => {
 
@@ -25,7 +26,8 @@ const CustomersPage = () => {
     // Permet de filtrer un customer
     const filteredCustomers = customers.filter(c =>
         c.firstname.toLowerCase().includes(search.toLowerCase()) ||
-        c.lastname.toLowerCase().includes(search.toLowerCase())
+        c.lastname.toLowerCase().includes(search.toLowerCase()) ||
+        c.email.toLowerCase().includes(search.toLowerCase())
     );
 
     // Permet de supprimer un customer
@@ -53,7 +55,12 @@ const CustomersPage = () => {
                         <i className="fas fa-users"/>
                         <span>  Mes clients</span>
                     </h2>
+
                     <hr className="border-light"/>
+                    <Link to="/ajouter-client/new" className="btn btn-sm btn-block btn-info mb-3 d-block">
+                        <i className="fas fa-plus"/>
+                        <span> Ajouter un client</span>
+                    </Link>
                     <input className="form-control mb-2"
                            type="text" name="search"
                            placeholder="Rechercher un client ..."
