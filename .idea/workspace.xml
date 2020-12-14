@@ -13,12 +13,8 @@
     <list default="true" id="7da86dfd-dac6-4397-9cef-7a58017f25bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Pages/CustomersPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Pages/CustomersPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/Pages/EstimatesPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Pages/EstimatesPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Customer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Estimate.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Estimate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/components/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/components/NavBar.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +71,9 @@
       <workItem from="1607769278685" duration="15466000" />
       <workItem from="1607883916629" duration="2879000" />
       <workItem from="1607927408339" duration="159000" />
-      <workItem from="1607927689641" duration="4316000" />
+      <workItem from="1607927689641" duration="8482000" />
+      <workItem from="1607954664331" duration="210000" />
+      <workItem from="1607955177782" duration="1072000" />
     </task>
     <servers />
   </component>
@@ -107,9 +105,9 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="405" y="196" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1607371549336" />
-    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1607771265892">
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1607936545860">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/-65.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1607771265892" />
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/-65.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1607936545860" />
   </component>
 </project>

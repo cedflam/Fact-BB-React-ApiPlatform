@@ -30,25 +30,25 @@ const NavBar = ({isAuthenticated, setIsAuthenticated}) => {
                             <li className="nav-item">
                                 <NavLink className={"nav-link"} to={"/devis"}>
                                     <i className="fas fa-file-alt"/>
-                                    <span> Devis</span>
+                                    <span> Devis </span>
                                 </NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink className={"nav-link"} to={"/factures"}>
                                     <i className="fas fa-file-invoice"/>
-                                    <span> Factures</span>
+                                    <span> Factures </span>
                                 </NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink className={"nav-link"} to={"/clients"}>
                                     <i className="fas fa-users"/>
-                                    <span> Clients</span>
+                                    <span> Clients </span>
                                 </NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink className={"nav-link"} to={"/statistiques"}>
                                     <i className="fas fa-chart-line"/>
-                                    <span>  Tableau de bord</span>
+                                    <span>  Tableau de bord </span>
                                 </NavLink>
                             </li>
 
@@ -56,7 +56,8 @@ const NavBar = ({isAuthenticated, setIsAuthenticated}) => {
                         <li className="nav-item">
                             <a className="nav-link " href="/logout" onClick={handleLogout}>
                                 <i className="fas fa-sign-out-alt"/>
-                                <span> Déconnexion</span>
+                                <span> Déconnexion </span>
+
                             </a>
                         </li>
                         </Fragment>
