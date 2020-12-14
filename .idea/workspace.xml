@@ -11,17 +11,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7da86dfd-dac6-4397-9cef-7a58017f25bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/EventSubscriber/PasswordHashSubscriber.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Facturation-React.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Facturation-React.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/lexik_jwt_authentication.yaml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Company.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Company.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/AppController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AppController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/app/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +57,11 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/Pages" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,6 +74,17 @@
       <workItem from="1607374178855" duration="34000" />
       <workItem from="1607412987844" duration="6927000" />
       <workItem from="1607422025649" duration="2937000" />
+      <workItem from="1607505618368" duration="10019000" />
+      <workItem from="1607516746104" duration="13761000" />
+      <workItem from="1607592403740" duration="5428000" />
+      <workItem from="1607673734907" duration="5393000" />
+      <workItem from="1607707305777" duration="1821000" />
+      <workItem from="1607761621306" duration="15000" />
+      <workItem from="1607768569855" duration="4000" />
+      <workItem from="1607769278685" duration="15466000" />
+      <workItem from="1607883916629" duration="2879000" />
+      <workItem from="1607927408339" duration="159000" />
+      <workItem from="1607927689641" duration="124000" />
     </task>
     <servers />
   </component>
@@ -82,6 +104,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="360" y="219" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607685731117">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="360" y="219" key="#com.intellij.execution.impl.EditConfigurationsDialog/-65.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1607685731117" />
     <state x="694" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1607414414564">
       <screen x="0" y="25" width="1792" height="1010" />
     </state>
@@ -90,5 +116,9 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="405" y="196" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1607371549336" />
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1607771265892">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/-65.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1607771265892" />
   </component>
 </project>
