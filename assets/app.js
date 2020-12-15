@@ -23,6 +23,7 @@ const App = (props) => {
     // Permet de vérifier si l'utilisateur est connecté
     AuthApi.isAuthenticated(isAuthenticated, setIsAuthenticated);
 
+
     return (
         <Fragment>
             <HashRouter>
@@ -30,7 +31,7 @@ const App = (props) => {
                 <Switch>
                     <Route path="/devis" component={EstimatesPages}/>
                     <Route path="/factures" component={InvoicesPage}/>
-                    <Route path="/ajouter-client/:id" component={CustomerEditPage} />
+                    <Route path="/clients/:id" component={CustomerEditPage} />
                     <Route path="/clients" component={CustomersPage}/>
                     <Route path="/statistiques" component={DashboardPage}/>
                     <Route path="/login" render={(props) => <LoginPage isAuthenticated={isAuthenticated} setIsAuthenticated={setIsAuthenticated} /> } />

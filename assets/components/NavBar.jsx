@@ -5,7 +5,7 @@ import {useHistory} from "react-router";
 import logo from "../img/bb-logo.jpg";
 
 const NavBar = ({isAuthenticated, setIsAuthenticated}) => {
-
+    /* TODO: Le bouton du menu hamburger ne fonctionne pas revoir les liaisons javascript */
     // Permet de passer isAuthenticated à false an cas de deconnexion
     const handleLogout = (event) => {
         event.preventDefault;

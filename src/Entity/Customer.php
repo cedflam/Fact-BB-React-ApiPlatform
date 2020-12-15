@@ -7,10 +7,13 @@ use App\Repository\CustomerRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 use Symfony\Component\Serializer\Annotation\Groups;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * @ORM\Entity(repositoryClass=CustomerRepository::class)
+ * @UniqueEntity("email", message="Cet email existe déjà !")
  * @ApiResource()
  */
 class Customer
@@ -32,27 +35,32 @@ class Customer
     /**
      * @ORM\Column(type="string", length=255)
      * @Groups({"estimates_read"})
+     * @Assert\NotBlank(message="Le nom du client est obligatoire !")
      */
     private $lastname;
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Assert\NotBlank(message="L'adresse du client est obligatoire !")
      */
     private $address;
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Assert\NotBlank(message="Le code postal est obligatoire !")
      */
     private $postCode;
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Assert\NotBlank(message="La ville est obligatoire !")
      */
     private $city;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
      * @Groups({"estimates_read"})
+     * @Assert\Email(message="L'email doit être au format valide !")
      */
     private $email;
 

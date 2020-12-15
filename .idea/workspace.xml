@@ -11,14 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7da86dfd-dac6-4397-9cef-7a58017f25bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/Pages/Estimate/EstimatesPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Pages/CustomersPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Pages/Customer/CustomersPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Pages/EstimatesPage.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Pages/InvoicesPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Pages/Invoice/InvoicesPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Pages/Customer/CustomerEditPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Pages/Customer/CustomerEditPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Pages/Customer/CustomersPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Pages/Customer/CustomersPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Pages/Estimate/EstimatesPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Pages/Estimate/EstimatesPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/Pages/LoginPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Pages/LoginPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/components/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/components/NavBar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Customer.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +54,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/EventSubscriber" />
       <recent name="$PROJECT_DIR$/assets/Pages/Invoice" />
       <recent name="$PROJECT_DIR$/assets/Pages/Estimate" />
       <recent name="$PROJECT_DIR$/assets/Pages/Customer" />
@@ -83,7 +85,8 @@
       <workItem from="1607927408339" duration="159000" />
       <workItem from="1607927689641" duration="8482000" />
       <workItem from="1607954664331" duration="210000" />
-      <workItem from="1607955177782" duration="9525000" />
+      <workItem from="1607955177782" duration="11789000" />
+      <workItem from="1608014514164" duration="8891000" />
     </task>
     <servers />
   </component>

@@ -57,7 +57,7 @@ const CustomersPage = () => {
                     </h2>
 
                     <hr className="border-light"/>
-                    <Link to="/ajouter-client/new" className="btn btn-sm btn-block btn-info mb-3 d-block">
+                    <Link to="/clients/new" className="btn btn-sm btn-block btn-info mb-3 d-block">
                         <i className="fas fa-plus"/>
                         <span> Ajouter un client</span>
                     </Link>
@@ -90,8 +90,9 @@ const CustomersPage = () => {
                                             </span>
                                         </div>
                                         <div className="card-footer ">
-                                            <a href="#" className="btn btn-sm btn-info mr-2"> <i
-                                                className="fas fa-pen"/></a>
+                                            <Link to={"/clients/" + customer.id} className="btn btn-sm btn-info mr-2">
+                                                <i className="fas fa-pen"/>
+                                            </Link>
                                             <button onClick={() => handleDelete(customer.id)}
                                                     className="btn btn-sm btn-danger"><i className="fas fa-trash"/></button>
                                         </div>

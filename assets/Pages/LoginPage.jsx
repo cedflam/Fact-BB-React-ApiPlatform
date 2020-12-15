@@ -14,8 +14,6 @@ const LoginPage = ({isAuthenticated, setIsAuthenticated}) => {
     const [errors, setErrors] = useState("")
     const history = useHistory();
 
-
-
     // Je récupère la saisie du formulaire
     const handleChange = (event) => {
         const value = event.currentTarget.value;

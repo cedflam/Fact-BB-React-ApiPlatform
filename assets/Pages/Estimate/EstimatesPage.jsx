@@ -33,8 +33,7 @@ const EstimatesPages = () => {
                 .then(response => console.log('ok'))
                 .catch(error => {
                     setEstimates(originalEstimates);
-                    console.log(error.response)
-                })
+                });
         }
     }
 
